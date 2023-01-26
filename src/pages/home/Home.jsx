@@ -1,6 +1,7 @@
 import React from "react";
 import ilustracao from '../../img/illustration.png';
 import { FiPlay } from "react-icons/fi";
+import styles from "../home/Home.module.css";
 import './Home.css'
 
 export default function Home() {
@@ -21,19 +22,18 @@ export default function Home() {
                 </h3>
 
                 <div className='grupo-botoes'>
-                    <button className='botao' >
-                        <p className='desc-bottao'><FiPlay />ASSISTIR AGORA</p>
+                    <button className='botao1' >
+                        <a className='desc-bottao'><FiPlay />ASSISTIR AGORA</a>
                     </button>
 
-                    <button className='botao'>
+                    <button className='botao2'>
                         <p className='desc-bottao'>ASSISTIR O TRAILER</p>
                     </button>
 
                 </div>
             </div>
 
-
-            <img src={ilustracao} width={500} />
+            <img src={ilustracao} className={styles.fantasminha}  width={"550em"} alt='Fantasminha' />
 
         </div>
     )

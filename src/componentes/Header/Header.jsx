@@ -1,16 +1,16 @@
 import React from "react";
 import { FiFacebook, FiYoutube, FiTwitter, FiInstagram } from "react-icons/fi";
-import styles from './Header.modules.css';
-
+import styles from "./Header.module.css";
+import logo from "../../img/logo.svg";
 export default function Header() {
     return (
-        <nav className={styles.navpage}>
-            <p>LOGOTIPO</p>
-            <div>
-                <FiFacebook />
-                <FiInstagram />
-                <FiTwitter />
-                <FiYoutube />
+        <nav className={styles.menu}>
+            <img src={logo} />
+            <div className={styles.icon}>
+                <FiFacebook size={'22px'} />
+                <FiInstagram size={'22px'} />
+                <FiTwitter size={'22px'}/>
+                <FiYoutube size={'22px'}/>
             </div>
         </nav>
     );

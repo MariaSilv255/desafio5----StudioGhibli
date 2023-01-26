@@ -1,0 +1,13 @@
+@keyframes a {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateY(50px);
+    } 
+}
+.fantasminha {
+    animation: a 5s;
+    animation-iteration-count: infinite;
+    
+}

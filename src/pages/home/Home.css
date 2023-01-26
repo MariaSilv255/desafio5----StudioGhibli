@@ -1,64 +1,87 @@
 
 .conteudo {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 91px;
-  }
-  .informacoes{
-    display: flex;
-    flex-direction: column;
-  }
-  .informacoes-autor {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #F9F9F9;
-  }
+  display: flex;
+  margin-top: 160px;
+  justify-content: space-between;
+  align-items: center;
   
-  .informacoes-titulo {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 60px;
-    max-width: 360px;
-    color: #F9F9F9;
-  }
-  
-  .informacoes-descricao {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    max-width: 430px;
-    color: #F9F9F9;
-  }
-  
-  .grupo-botoes {
-    display: flex;
-    flex-direction: row;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.informacoes-autor {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #F9F9F9;
+}
+
+.informacoes-titulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  max-width: 360px;
+  color: #F9F9F9;
+}
+
+.informacoes-descricao {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 430px;
+  color: #F9F9F9;
+}
+
+.grupo-botoes {
+  display: flex;
+  flex-direction: row;
   gap: 25px;
   margin-top: 26px;
-  }
+
+}
+
+.botao1 {
+  border: 0px;
+  background: #658E76;
+  border: 2px solid #658E76;
+  height: 45px;
+  transform: skew(-24deg);
+  width: 225px;
+  align-items: center;
   
-  .botao {
-    border: 0px;
-    background: transparent;
-    border: 2px solid #658E76;
-    color: #F9F9F9;
-    height: 45px;
-    transform: skew(-24deg);
-    width: 225px;
-  
-  
-  }
-  
-  .desc-bottao {
-    transform: skew(24deg);
-    display: flex;
-    text-align: center;
-    gap: 13px;
-    justify-content: center;
-  }
-  
-  .botao:hover{
-    background: #618f74;
-  }
+
+
+}
+
+.botao2 {
+
+  border: 0px;
+  background: transparent;
+  border: 2px solid #658E76;
+  color: #F9F9F9;
+  height: 45px;
+  transform: skew(-24deg);
+  width: 225px;
+
+
+}
+
+.desc-bottao {
+  transform: skew(24deg);
+  display: flex;
+  text-align: center;
+  gap: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  justify-content: center;
+  color: white;
+
+}
+
+.botao:hover {
+  background: #618f74;
+}
