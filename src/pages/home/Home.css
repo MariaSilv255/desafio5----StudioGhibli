@@ -82,6 +82,7 @@
 
 }
 
-.botao:hover {
-  background: #618f74;
+.botao1:hover {
+  background: #578369;
+  border: 2px solid #578369;
 }

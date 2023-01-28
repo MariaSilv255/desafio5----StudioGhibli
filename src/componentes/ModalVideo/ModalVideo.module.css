@@ -1,0 +1,6 @@
+.stylesCenter{
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+   padding: 10px;
+}

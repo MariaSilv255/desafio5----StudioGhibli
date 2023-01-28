@@ -10,10 +10,6 @@ function App() {
       <Header />
       <Home/>
     </main>
-
-
-
-
   );
 }
 
