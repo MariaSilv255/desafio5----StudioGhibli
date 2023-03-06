@@ -1,6 +1,6 @@
 import React from "react";
 import { FiFacebook, FiYoutube, FiTwitter, FiInstagram } from "react-icons/fi";
-import styles from "./Header.module.css";
+import styles from "../../styles/Header.module.css";
 import logo from "../../img/logo.svg";
 export default function Header() {
     return (
