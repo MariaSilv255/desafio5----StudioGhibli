@@ -21,7 +21,7 @@ export default function Home() {
     return (
 
         <div className='conteudo'>
-
+            <img src={ilustracao} className={styles.fantasminha} alt='Fantasminha' />
             <div className='informacoes'>
                 <h2 className='informacoes-autor'>
                     HAYAO MIYAZAKI
@@ -49,7 +49,7 @@ export default function Home() {
 
             </div>
             <ModalVideo closeVideo={closeVideo} openVideo={open} />
-            <img src={ilustracao} className={styles.fantasminha} width={"550em"} alt='Fantasminha' />
+
 
         </div>
     )

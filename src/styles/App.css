@@ -1,27 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: inherit;
 }
 
-.container{
+.container {
   display: flex;
-  justify-content: space-evenly ;
+  justify-content: space-evenly;
   flex-direction: column;
- 
+  max-width: 1200px;
+  margin: 0 auto;
+
 }
 
 body {
   background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
   min-height: 100vh;
-  font-size: 1.6rem;
 }
 
-.container{
- max-width: 1200px;
- margin: 0 auto;
+
+
+
+@media (min-width: 768px) and (max-width: 1087px) {
+  html{
+    font-size: 63.5%;
+
+  }
 }
+
+
+@media (min-width: 1088px) {
+  html{
+    font-size: 68.5%;
+  } 
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  
+
+
+  }
 

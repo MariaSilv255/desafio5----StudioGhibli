@@ -9,4 +9,25 @@
 .fantasminha {
     animation: a 5s;
     animation-iteration-count: infinite;
+
 }
+@media (min-width: 768px) and (max-width: 1087px){
+    .fantasminha {
+       max-width:52rem ;
+    
+    }
+  }
+   
+  @media (max-width: 768px){
+    .fantasminha {
+        max-width: 35rem;
+  }
+  }
+
+  @media (min-width: 1088px) {
+    .fantasminha {
+       max-width: 53rem;
+       
+  }
+  }
+
